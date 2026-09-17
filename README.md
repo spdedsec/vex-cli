@@ -1,12 +1,15 @@
 # VEX
 
-VEX is a fast, terminal-native study and knowledge system. It is universal by design: use it for NEET, university, UPSC, coding, language learning, or any topic-based study workflow.
+VEX is a fast, terminal-native study and knowledge system. It is universal by design: use it for NEET, university, everything, coding, language learning, or any topic-based study workflow.
+
+## Installation
+
+Vex is available on npm, so you can install it globally with a single command: `npm install -g vex-study`. Once installed, run `vex` from any directory in your terminal to launch the CLI. Vex automatically keeps your study data locally on your machine, so your notes, progress, and other data stay separate from the package itself.
 
 ## Install and run
 
 ```bash
 cd vex
-npm link
 vex init
 vex
 ```
@@ -120,13 +123,4 @@ vex
 
 Add that export to `~/.bashrc` or `~/.zshrc` to make it permanent.
 
-## Publishing to npm
-
-No token is required to run VEX locally. To publish the package, authenticate with npm and run:
-
-```bash
-npm login
-npm publish --access public
-```
-
-The package is named `vex-study`; the executable remains `vex`.
+##Thank you
