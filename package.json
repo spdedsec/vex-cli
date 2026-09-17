@@ -1,0 +1,18 @@
+{
+  "name": "vex-study",
+  "version": "0.1.0",
+  "description": "A fast, terminal-native study and knowledge system",
+  "type": "module",
+  "bin": {
+    "vex": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "keywords": ["study", "cli", "productivity", "knowledge", "revision"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
